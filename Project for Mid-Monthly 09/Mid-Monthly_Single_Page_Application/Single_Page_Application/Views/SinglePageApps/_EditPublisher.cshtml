@@ -1,0 +1,19 @@
+﻿@model Publisher
+
+
+
+<form id="f" name="f" data-db-type="publisher" data-db-action="edit" data-controller-action="EditPublisher">
+     <input type="hidden" asp-for="PublisherID" />
+    <div class="form-group row mb-1">
+        <label asp-for="PublisherName" class="col-form-label col-3"></label>
+        <div class="col-9">
+            <input asp-for="PublisherName" class="form-control" />
+            <span asp-validation-for="PublisherName" class="text-danger"></span>
+        </div>
+    </div>
+</form>
+
+
+
+
+

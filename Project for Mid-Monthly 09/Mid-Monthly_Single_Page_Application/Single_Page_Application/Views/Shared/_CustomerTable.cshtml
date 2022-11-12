@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Customer>
+@{
+    int? id = (int?)ViewData["id"];
+    
+}
+<table class="table table-bordered" id="customerTable">
+    <thead>
+        <tr>
+            <th></th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomersName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerPhone)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr id="customer_tr_@item.CustomerID" class="@(id.HasValue && id == item.CustomerID ? "bg-info": "")">
+                <td><button type="button" class="btn btn-sm select @(id.HasValue && id == item.CustomerID ? "disabled": "")" data-customer-id="@item.CustomerID" >Select</button></td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CustomersName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CustomerPhone)
+                </td>
+                <td class="d-flex justify-content-sm-evenly">
+                   <button type="button" class="btn btn-primary btn-sm rounded-pill edit" data-db-type="customer" data-db-action="edit" data-customer-id="@item.CustomerID" data-controller-action="EditCustomer"><i class="bi bi-pencil">Edit</i></button>
+                   <button type="button" class="btn btn-danger btn-sm rounded-pill del" data-db-type="customer" data-db-action="delete" data-customer-id="@item.CustomerID" data-controller-action="DeleteCustomer"><i class="bi bi-trash">Delete</i></button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

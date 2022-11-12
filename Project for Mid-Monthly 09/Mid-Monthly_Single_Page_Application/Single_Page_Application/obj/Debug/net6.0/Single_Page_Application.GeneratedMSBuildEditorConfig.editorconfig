@@ -1,0 +1,112 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Single_Page_Application
+build_property.RootNamespace = Single_Page_Application
+build_property.ProjectDir = C:\Users\LAB103-11\Desktop\1268006\Project for Mid-Monthly 09\Mid-Monthly_Single_Page_Application\Single_Page_Application\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\LAB103-11\Desktop\1268006\Project for Mid-Monthly 09\Mid-Monthly_Single_Page_Application\Single_Page_Application
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/LAB103-11/Desktop/1268006/Project for Mid-Monthly 09/Mid-Monthly_Single_Page_Application/Single_Page_Application/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LAB103-11/Desktop/1268006/Project for Mid-Monthly 09/Mid-Monthly_Single_Page_Application/Single_Page_Application/Views/Shared/_AuthorTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BdXRob3JUYWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LAB103-11/Desktop/1268006/Project for Mid-Monthly 09/Mid-Monthly_Single_Page_Application/Single_Page_Application/Views/Shared/_BookTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Cb29rVGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LAB103-11/Desktop/1268006/Project for Mid-Monthly 09/Mid-Monthly_Single_Page_Application/Single_Page_Application/Views/Shared/_CustomerTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DdXN0b21lclRhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LAB103-11/Desktop/1268006/Project for Mid-Monthly 09/Mid-Monthly_Single_Page_Application/Single_Page_Application/Views/Shared/_GenreTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9HZW5yZVRhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LAB103-11/Desktop/1268006/Project for Mid-Monthly 09/Mid-Monthly_Single_Page_Application/Single_Page_Application/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LAB103-11/Desktop/1268006/Project for Mid-Monthly 09/Mid-Monthly_Single_Page_Application/Single_Page_Application/Views/Shared/_PublisherTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QdWJsaXNoZXJUYWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LAB103-11/Desktop/1268006/Project for Mid-Monthly 09/Mid-Monthly_Single_Page_Application/Single_Page_Application/Views/Shared/_SaleDetailsTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TYWxlRGV0YWlsc1RhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LAB103-11/Desktop/1268006/Project for Mid-Monthly 09/Mid-Monthly_Single_Page_Application/Single_Page_Application/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LAB103-11/Desktop/1268006/Project for Mid-Monthly 09/Mid-Monthly_Single_Page_Application/Single_Page_Application/Views/SinglePageApps/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luZ2xlUGFnZUFwcHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LAB103-11/Desktop/1268006/Project for Mid-Monthly 09/Mid-Monthly_Single_Page_Application/Single_Page_Application/Views/SinglePageApps/_CreateAuthor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luZ2xlUGFnZUFwcHNcX0NyZWF0ZUF1dGhvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LAB103-11/Desktop/1268006/Project for Mid-Monthly 09/Mid-Monthly_Single_Page_Application/Single_Page_Application/Views/SinglePageApps/_CreateBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luZ2xlUGFnZUFwcHNcX0NyZWF0ZUJvb2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LAB103-11/Desktop/1268006/Project for Mid-Monthly 09/Mid-Monthly_Single_Page_Application/Single_Page_Application/Views/SinglePageApps/_CreateCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luZ2xlUGFnZUFwcHNcX0NyZWF0ZUN1c3RvbWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LAB103-11/Desktop/1268006/Project for Mid-Monthly 09/Mid-Monthly_Single_Page_Application/Single_Page_Application/Views/SinglePageApps/_CreateGenre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luZ2xlUGFnZUFwcHNcX0NyZWF0ZUdlbnJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LAB103-11/Desktop/1268006/Project for Mid-Monthly 09/Mid-Monthly_Single_Page_Application/Single_Page_Application/Views/SinglePageApps/_CreateItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luZ2xlUGFnZUFwcHNcX0NyZWF0ZUl0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LAB103-11/Desktop/1268006/Project for Mid-Monthly 09/Mid-Monthly_Single_Page_Application/Single_Page_Application/Views/SinglePageApps/_CreatePublisher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luZ2xlUGFnZUFwcHNcX0NyZWF0ZVB1Ymxpc2hlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LAB103-11/Desktop/1268006/Project for Mid-Monthly 09/Mid-Monthly_Single_Page_Application/Single_Page_Application/Views/SinglePageApps/_CreateSaleDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luZ2xlUGFnZUFwcHNcX0NyZWF0ZVNhbGVEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LAB103-11/Desktop/1268006/Project for Mid-Monthly 09/Mid-Monthly_Single_Page_Application/Single_Page_Application/Views/SinglePageApps/_EditAuthor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luZ2xlUGFnZUFwcHNcX0VkaXRBdXRob3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LAB103-11/Desktop/1268006/Project for Mid-Monthly 09/Mid-Monthly_Single_Page_Application/Single_Page_Application/Views/SinglePageApps/_EditBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luZ2xlUGFnZUFwcHNcX0VkaXRCb29rLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LAB103-11/Desktop/1268006/Project for Mid-Monthly 09/Mid-Monthly_Single_Page_Application/Single_Page_Application/Views/SinglePageApps/_EditCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luZ2xlUGFnZUFwcHNcX0VkaXRDdXN0b21lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LAB103-11/Desktop/1268006/Project for Mid-Monthly 09/Mid-Monthly_Single_Page_Application/Single_Page_Application/Views/SinglePageApps/_EditGenre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luZ2xlUGFnZUFwcHNcX0VkaXRHZW5yZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LAB103-11/Desktop/1268006/Project for Mid-Monthly 09/Mid-Monthly_Single_Page_Application/Single_Page_Application/Views/SinglePageApps/_EditPublisher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luZ2xlUGFnZUFwcHNcX0VkaXRQdWJsaXNoZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LAB103-11/Desktop/1268006/Project for Mid-Monthly 09/Mid-Monthly_Single_Page_Application/Single_Page_Application/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LAB103-11/Desktop/1268006/Project for Mid-Monthly 09/Mid-Monthly_Single_Page_Application/Single_Page_Application/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

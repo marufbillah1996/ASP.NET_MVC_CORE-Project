@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Author>
+<table class="table table-bordered" id="authorTable">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.AuthorName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AuthorAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gender)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr id="author_tr_@item.AuthorID">
+                <td>
+                    @Html.DisplayFor(modelItem => item.AuthorName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AuthorAddress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Gender)
+                </td>
+                <td class="d-flex justify-content-sm-evenly">
+                   <button type="button" class="btn btn-primary btn-sm rounded-pill edit" data-db-type="author" data-db-action="edit" data-author-id="@item.AuthorID" data-controller-action="EditAuthor"><i class="bi bi-pencil">Edit</i></button>
+                   <button type="button" class="btn btn-danger btn-sm rounded-pill del" data-db-type="author" data-db-action="delete" data-author-id="@item.AuthorID" data-controller-action="DeleteAuthor"><i class="bi bi-trash">Delete</i></button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

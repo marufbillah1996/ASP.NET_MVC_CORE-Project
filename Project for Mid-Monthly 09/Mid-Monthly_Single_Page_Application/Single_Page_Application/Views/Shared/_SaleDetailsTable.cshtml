@@ -1,0 +1,47 @@
+﻿@model IEnumerable<SaleDetail>
+
+<table class="table table-bordered" id="saledetailsTable">
+    <thead>
+        <tr>
+            <th></th>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer.CustomersName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Book.BookName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Book.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr id="@($"saledetails_tr_{@item.CustomerID}_{@item.BookID}")">
+                <td>
+                    <img src="/Pictures/@item.Book?.Picture" class="rounded-circle" style="width:40px" />
+                </td>
+                <td>
+                    @item.Customer?.CustomersName
+                </td>
+                <td>
+                    @item.Book?.BookName
+                </td>
+                <td>
+                    @item.Book?.Price
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+                <td class="d-flex justify-content-sm-evenly">
+                    <button type="button" class="btn btn-danger btn-sm rounded-pill del" data-db-type="saledetails" data-db-action="delete" data-customer-id="@item.CustomerID" data-book-id="@item.BookID" data-controller-action="DeleteSaleDetails"><i class="bi bi-trash">Delete</i></button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

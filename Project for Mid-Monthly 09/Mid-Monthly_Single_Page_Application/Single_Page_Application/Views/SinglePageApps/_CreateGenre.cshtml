@@ -1,0 +1,21 @@
+﻿@model Genre
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<form id="f" name="f" data-db-type="genre" data-db-action="insert" data-controller-action="CreateGenre">
+
+    <div class="form-group row mb-1">
+        <label asp-for="GenreName" class="col-form-label col-3"></label>
+        <div class="col-9">
+            <input asp-for="GenreName" class="form-control" />
+            <span asp-validation-for="GenreName" class="text-danger"></span>
+        </div>
+    </div>
+</form>
+
+
+
+
+

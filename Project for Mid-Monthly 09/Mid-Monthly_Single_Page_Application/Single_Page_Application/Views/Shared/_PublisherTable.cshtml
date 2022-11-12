@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Publisher>
+<table class="table table-bordered" id="publisherTable">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PublisherName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr id="publisher_tr_@item.PublisherID">
+                <td>
+                    @Html.DisplayFor(modelItem => item.PublisherName)
+                </td>
+                <td class="d-flex justify-content-sm-evenly">
+                   <button type="button" class="btn btn-primary btn-sm rounded-pill edit" data-db-type="publisher" data-db-action="edit" data-publisher-id="@item.PublisherID" data-controller-action="EditPublisher"><i class="bi bi-pencil">Edit</i></button>
+                   <button type="button" class="btn btn-danger btn-sm rounded-pill del" data-db-type="publisher" data-db-action="delete" data-publisher-id="@item.PublisherID" data-controller-action="DeletePublisher"><i class="bi bi-trash">Delete</i></button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

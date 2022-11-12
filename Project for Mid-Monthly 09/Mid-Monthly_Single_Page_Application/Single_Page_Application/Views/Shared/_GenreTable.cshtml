@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Genre>
+<table class="table table-bordered" id="genreTable">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.GenreName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr id="genre_tr_@item.GenreID">
+                <td>
+                    @Html.DisplayFor(modelItem => item.GenreName)
+                </td>
+                <td class="d-flex justify-content-sm-evenly">
+                   <button type="button" class="btn btn-primary btn-sm rounded-pill edit" data-db-type="genre" data-db-action="edit" data-genre-id="@item.GenreID" data-controller-action="EditGenre"><i class="bi bi-pencil">Edit</i></button>
+                   <button type="button" class="btn btn-danger btn-sm rounded-pill del" data-db-type="genre" data-db-action="delete" data-genre-id="@item.GenreID" data-controller-action="DeleteGenre"><i class="bi bi-trash">Delete</i></button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
